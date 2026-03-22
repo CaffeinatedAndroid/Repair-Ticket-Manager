@@ -1,42 +1,42 @@
-Tax Rate = 0.1
-Hourly Rate = 35
+Devices = {
 
-___________XBOX___________
-HDMI
-PSU
-Joysticks
-TraceRepair
-Disc Drive
-Controller Battery
+"Xbox": {
 
-___________PLAYSTATION___________
-HDMI
-PSU
-Joysticks
-TraceRepair
-Disc Drive
-Controller Battery
+            "hdmi":
+                {"partCost" : 5.00, "estTime" : 1.5},
 
-___________SWITCH1___________
-USB
-Charger IC
-LCD
-Battery
-Game Card Slot
-Joycon Battery
+            "joystick":
+                {"partCost" : 10.00, "estTime" : 1.0},
 
-___________SWITCH2___________
-USB
-Charger IC
-LCD
-Battery
-Game Card Slot
-Joycon Battery
+            "powerSupply":
+                {"partCost" : 50.00, "estTime" : 0.5},
 
+},
 
-___________SWITCH2___________
-USB
-Charger IC
-LCD
-Battery
-Game Card Slot
+"Playstation": {
+
+            "hdmi":
+                {"partCost" : 5.00, "estTime" : 1.5},
+
+            "joystick":
+                {"partCost" : 10.00, "estTime" : 1.0},
+
+            "powerSupply":
+                {"partCost" : 50.00, "estTime" : 0.5},
+
+},
+
+"Switch" :{
+
+            "hdmi":
+                {"partCost" : 5.00, "estTime" : 1.5},
+
+            "joystick":
+                {"partCost" : 10.00, "estTime" : 1.0},
+
+            "powerSupply":
+                {"partCost" : 50.00, "estTime" : 0.5},
+
+}
+
+}
