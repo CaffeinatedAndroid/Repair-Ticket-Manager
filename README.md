@@ -1,4 +1,6 @@
 # Repair Ticket Manager
+A CLI tool for managing repair tickets
+
 
 
 ![A CLI tool for managing repair tickets](MainMenu.PNG)
